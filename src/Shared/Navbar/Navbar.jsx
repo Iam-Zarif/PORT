@@ -29,7 +29,7 @@ const Navbar = () => {
     return (
       <Container>
         <div>
-          <div className="navbar bg-base-100 mt-5">
+          <div className="sticky navbar bg-base-100 mt-5">
             <div className="navbar-start">
               <div className="dropdown">
                 <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -61,7 +61,7 @@ const Navbar = () => {
                   className="rounded-full border border-blue-500 border-4"
                   alt="Zarif photo"
                 />
-                <p className="normal-case text-3xl text-blue-600 font-semibold shadowed-text">
+                <p className="normal-case text-3xl text-blue-500 font-semibold shadowed-text">
                   Mostofa Fatin
                 </p>
               </div>
