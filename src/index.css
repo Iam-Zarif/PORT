@@ -7,3 +7,11 @@ body{
 background: linear-gradient(110deg, rgb(30, 37, 42) 10%, rgb(45, 52, 58) 51%, rgb(32, 42, 49) 93%);
 
 }
+.pc-menu{
+   background: rgb(78,89,98);
+background: linear-gradient(110deg, rgb(30, 37, 42) 10%, rgb(45, 52, 58) 51%, rgb(32, 42, 49) 93%);
+
+}
+.texts{
+   font-family: Comic Sans MS;
+}
