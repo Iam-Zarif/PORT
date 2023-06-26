@@ -6,7 +6,7 @@ import CoverContainer from "../../Container/CoverContainer";
 import {  } from "react-icons/fa";
 import {  } from "react-icons/bi";
 import { BsInstagram } from "react-icons/bs";
-import { SiInstagram } from "react-icons/si";
+import { SiAdobeillustrator } from "react-icons/si";
 import { LuInstagram } from "react-icons/lu";
 import { SlSocialInstagram } from "react-icons/sl";
 
@@ -18,7 +18,7 @@ const Cover = () => {
 
   return (
     <CoverContainer>
-      <div className="mt-28 grid grid-cols-1 lg:grid-cols-3">
+      <div className="mt-48 grid grid-cols-1 lg:grid-cols-3">
         <div className="text-white col-span-2">
           <p className="text-xl">WELCOME TO MY PORTFOLIO</p>
           <p className="lg:text-6xl mt-10">
@@ -64,8 +64,8 @@ const Cover = () => {
           <img src="" alt="My Bug size photo" />
         </div>
       </div>
-      <button className="btn btn-outline text-blue-500 hover:text-blue-700 mt-10 text-xl">Download My Resume</button>
-        <hr className="mt-16 shadow-md py-1  shadow-slate-200"/>
+      <button className="btn btn-outline text-blue-500 hover:text-blue-700 hover:shadow-md hover:shadow-slate-300 mt-10 text-xl">Download My Resume</button>
+        <hr className="mt-16 shadow-md py-1  "/>
     </CoverContainer>
   );
 };

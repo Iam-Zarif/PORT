@@ -12,7 +12,7 @@ const Navbar = () => {
          
         </li>
         <li>
-          <a className="hover:text-blue-500">Portfolio</a>
+          <a className="hover:text-blue-500">Projects</a>
         </li>
         <li>
           <a className="hover:text-blue-500">Skills</a>
@@ -29,7 +29,7 @@ const Navbar = () => {
     return (
       <Container>
         <div>
-          <div className="sticky navbar bg-base-100 mt-5">
+          <div className="fixed z-10 top-0 max-w-[1800px] shadow-md rounded-full shadow-slate-400  navbar bg-base-100 mt-5">
             <div className="navbar-start">
               <div className="dropdown">
                 <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -69,7 +69,7 @@ const Navbar = () => {
             <div className="navbar-end hidden lg:flex">
               <ul className="menu menu-horizontal px-1 text-white text-lg font-semibold ">
                 {navItems}
-                <button className="btn btn-outline text-blue-500 hover:text-blue-700">
+                <button className="rounded-full btn btn-outline text-blue-500 hover:text-blue-700">
                   Hire Me
                 </button>
               </ul>
