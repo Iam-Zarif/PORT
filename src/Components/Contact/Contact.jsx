@@ -78,7 +78,8 @@ const Contact = () => {
           {/*  */}
           <div className="bg px-20 shadow-lg shadow-black rounded-xl  flex items-center justify-center">
             <form
-              action="#"
+              action="https://formspree.io/f/mjvqbowp"
+              method="post"
               className="bg-gray-800 p-6 lg:w-[600px] rounded-lg shadow-lg  shadow-slate-500"
               data-aos="flip-right"
               data-aos-easing="linear"

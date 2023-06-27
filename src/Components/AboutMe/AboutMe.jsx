@@ -79,7 +79,7 @@ const AboutMe = () => {
             <hr className="mt-5" />
             <div className="mt-20 grid grid-cols-1 lg:gap-32 lg:grid-cols-3">
               <div
-                className=" shadow-md shadow-slate-300 rounded-xl text-center py-10 px-5"
+                className=" shadow-md shadow-black rounded-xl text-center py-10 px-5"
                 data-aos="fade-down"
                 data-aos-duration="1000"
               >
@@ -90,12 +90,12 @@ const AboutMe = () => {
                   Gaowair High School,Dhaka
                 </p>
                 <p className="mt-2 text-lg font-bold">Passing Year: (2017)</p>
-                <span className="font-bold text-lg inline-block mt-4 px-3 py-2 rounded-xl bg-slate-700 shadow-md shadow-slate-300">
+                <span className="font-bold text-lg inline-block mt-4 px-3 py-2 rounded-xl bg-slate-700 shadow-md shadow-black">
                   5 / 5
                 </span>
               </div>
               <div
-                className=" shadow-md shadow-slate-300 rounded-xl text-center py-10 px-5"
+                className=" shadow-md shadow-black rounded-xl text-center py-10 px-5"
                 data-aos="fade-up"
                 data-aos-duration="1000"
               >
@@ -104,12 +104,12 @@ const AboutMe = () => {
                   KC Model College,Dhaka
                 </p>
                 <p className="mt-2 text-lg font-bold">Passing Year: (2019)</p>
-                <span className="font-bold text-lg inline-block mt-4 px-3 py-2 rounded-xl bg-slate-700 shadow-md shadow-slate-300">
+                <span className="font-bold text-lg inline-block mt-4 px-3 py-2 rounded-xl bg-slate-700 shadow-md shadow-black">
                   4.91 / 5
                 </span>
               </div>
               <div
-                className=" shadow-md shadow-slate-300 rounded-xl text-center py-10 px-5"
+                className=" shadow-md shadow-black rounded-xl text-center py-10 px-5"
                 data-aos="fade-down"
                 data-aos-duration="1000"
               >
@@ -118,7 +118,7 @@ const AboutMe = () => {
                   Tejgaon College,Dhaka
                 </p>
                 <p className="mt-2 text-lg font-bold">Session(2019-2020)</p>
-                <span className="font-bold text-lg inline-block mt-4 px-3 py-2 rounded-xl bg-slate-700 shadow-md shadow-slate-300">
+                <span className="font-bold text-lg inline-block mt-4 px-3 py-2 rounded-xl bg-slate-700 shadow-md shadow-black">
                   Currently studying
                 </span>
               </div>
@@ -218,38 +218,38 @@ export default AboutMe;
   <hr className="mt-5" />
   <div className="mt-20 grid grid-cols-1 lg:gap-32 lg:grid-cols-3">
     <div
-      className=" shadow-md shadow-slate-300 rounded-xl text-center py-10 px-5"
+      className=" shadow-md shadow-black rounded-xl text-center py-10 px-5"
       data-aos="fade-down"
       data-aos-duration="1000"
     >
       <p className="text-3xl font-bold">Secondary School Certificate</p>
       <p className="text-xl text-slate-300 mt-2">Gaowair High School,Dhaka</p>
       <p className="mt-2 text-lg font-bold">Passing Year: (2017)</p>
-      <span className="font-bold text-lg inline-block mt-4 px-3 py-2 rounded-xl bg-slate-700 shadow-md shadow-slate-300">
+      <span className="font-bold text-lg inline-block mt-4 px-3 py-2 rounded-xl bg-slate-700 shadow-md shadow-black">
         5 / 5
       </span>
     </div>
     <div
-      className=" shadow-md shadow-slate-300 rounded-xl text-center py-10 px-5"
+      className=" shadow-md shadow-black rounded-xl text-center py-10 px-5"
       data-aos="fade-up"
       data-aos-duration="1000"
     >
       <p className="text-3xl font-bold">Higher School Certificate</p>
       <p className="text-xl text-slate-300 mt-2">KC Model College,Dhaka</p>
       <p className="mt-2 text-lg font-bold">Passing Year: (2019)</p>
-      <span className="font-bold text-lg inline-block mt-4 px-3 py-2 rounded-xl bg-slate-700 shadow-md shadow-slate-300">
+      <span className="font-bold text-lg inline-block mt-4 px-3 py-2 rounded-xl bg-slate-700 shadow-md shadow-black">
         4.91 / 5
       </span>
     </div>
     <div
-      className=" shadow-md shadow-slate-300 rounded-xl text-center py-10 px-5"
+      className=" shadow-md shadow-black rounded-xl text-center py-10 px-5"
       data-aos="fade-down"
       data-aos-duration="1000"
     >
       <p className="text-3xl font-bold">BSC at Hons(CSE)</p>
       <p className="text-xl text-slate-300 mt-2">Tejgaon College,Dhaka</p>
       <p className="mt-2 text-lg font-bold">Session(2019-2020)</p>
-      <span className="font-bold text-lg inline-block mt-4 px-3 py-2 rounded-xl bg-slate-700 shadow-md shadow-slate-300">
+      <span className="font-bold text-lg inline-block mt-4 px-3 py-2 rounded-xl bg-slate-700 shadow-md shadow-black">
         Currently studying
       </span>
     </div>

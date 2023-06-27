@@ -21,7 +21,7 @@ const Features = () => {
               data-aos="fade-right"
               data-aos-easing="linear"
               data-aos-duration="500"
-              className="  shadow-lg shadow-slate-400  rounded-xl  p-10"
+              className="  shadow-lg shadow-black rounded-xl  p-10"
             >
               <CgWebsite className="text-6xl " />
               <p className="text-3xl mt-5 text-blue-500 font-bold">
@@ -37,7 +37,7 @@ const Features = () => {
               data-aos="fade-down"
               data-aos-easing="linear"
               data-aos-duration="500"
-              className="  shadow-lg shadow-slate-400  rounded-xl p-10"
+              className="  shadow-lg shadow-black rounded-xl p-10"
             >
               <SiAdobephotoshop className="text-6xl " />
               <p className="text-3xl mt-5 text-blue-500 font-bold">Photoshop</p>
@@ -51,7 +51,7 @@ const Features = () => {
               data-aos="fade-left"
               data-aos-easing="linear"
               data-aos-duration="500"
-              className="  shadow-lg shadow-slate-400  rounded-xl p-10"
+              className="  shadow-lg shadow-black rounded-xl p-10"
             >
               <SiAdobeillustrator className="text-6xl " />
               <p className="text-3xl mt-5 text-blue-500 font-bold">
@@ -68,7 +68,7 @@ const Features = () => {
               data-aos="fade-up-right"
               data-aos-easing="linear"
               data-aos-duration="500"
-              className="  shadow-lg shadow-slate-400  rounded-xl p-10"
+              className="  shadow-lg shadow-black rounded-xl p-10"
             >
               <FaFileVideo className="text-6xl " />
               <p className="text-3xl mt-5 text-blue-500 font-bold">
@@ -84,7 +84,7 @@ const Features = () => {
               data-aos="fade-up-left"
               data-aos-easing="linear"
               data-aos-duration="500"
-              className="  shadow-lg shadow-slate-400  rounded-xl p-10"
+              className="  shadow-lg shadow-black rounded-xl p-10"
             >
               <GiPhotoCamera className="text-6xl " />
               <p className="text-3xl mt-5 text-blue-500 font-bold">

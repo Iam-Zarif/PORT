@@ -2,7 +2,10 @@
 
 const Projects = () => {
     return (
-        <div>
+        <div className="mt-32">
+            <div>
+                <p>Hi</p>
+            </div>
             
         </div>
     );
