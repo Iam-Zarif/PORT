@@ -6,7 +6,7 @@ import Container from "../../Container/Container";
 const Skills = () => {
   return (
     <Container>
-      <div className="mt-36 text-white">
+      <div className="mt-36 mb-28 text-white">
         <p className="text-white text-center text-2xl font-bold mb-6">
           Professional Skills
         </p>
@@ -54,7 +54,6 @@ const Skills = () => {
             <div
               className="w-3/4 relative mt-10"
               data-aos="fade-up"
-              
               data-aos-duration="1000"
             >
               <p className="text-xl texts">Video Editing</p>
@@ -76,7 +75,12 @@ const Skills = () => {
               Development Skills
             </p>
             <hr className="mt-4 lg:w-[670px]" />
-            <div className="w-3/4 relative mt-10">
+            <div
+              className="w-3/4 relative mt-10"
+              data-aos="fade-right"
+              data-aos-easing="linear"
+              data-aos-duration="1000"
+            >
               <p className="text-xl texts">HTML</p>
               <ProgressBar
                 completed={99}
@@ -88,7 +92,12 @@ const Skills = () => {
                 className="mt-2 shadow-lg rounded-full h-[20px] "
               />
             </div>
-            <div className="w-3/4 relative mt-10">
+            <div
+              className="w-3/4 relative mt-10"
+              data-aos="fade-left"
+              data-aos-easing="linear"
+              data-aos-duration="1000"
+            >
               <p className="text-xl texts">CSS</p>
               <ProgressBar
                 completed={90}
@@ -100,7 +109,12 @@ const Skills = () => {
                 className="mt-2 shadow-lg rounded-full h-[20px] "
               />
             </div>
-            <div className="w-3/4 relative mt-10">
+            <div
+              className="w-3/4 relative mt-10"
+              data-aos="fade-right"
+              data-aos-easing="linear"
+              data-aos-duration="1000"
+            >
               <p className="text-xl texts">Javascript</p>
               <ProgressBar
                 completed={82}
@@ -112,7 +126,12 @@ const Skills = () => {
                 className="mt-2 shadow-lg rounded-full h-[20px] "
               />
             </div>
-            <div className="w-3/4 relative mt-10">
+            <div
+              className="w-3/4 relative mt-10"
+              data-aos="fade-left"
+              data-aos-easing="linear"
+              data-aos-duration="1000"
+            >
               <p className="text-xl texts">API</p>
               <ProgressBar
                 completed={85}
@@ -124,7 +143,12 @@ const Skills = () => {
                 className="mt-2 shadow-lg rounded-full h-[20px] "
               />
             </div>
-            <div className="w-3/4 relative mt-10">
+            <div
+              className="w-3/4 relative mt-10"
+              data-aos="fade-right"
+              data-aos-easing="linear"
+              data-aos-duration="1000"
+            >
               <p className="text-xl texts">React</p>
               <ProgressBar
                 completed={90}
@@ -136,7 +160,12 @@ const Skills = () => {
                 className="mt-2 shadow-lg rounded-full h-[20px] "
               />
             </div>
-            <div className="w-3/4 relative mt-10">
+            <div
+              className="w-3/4 relative mt-10"
+              data-aos="fade-left"
+              data-aos-easing="linear"
+              data-aos-duration="1000"
+            >
               <p className="text-xl texts">Firebase</p>
               <ProgressBar
                 completed={75}
@@ -148,7 +177,12 @@ const Skills = () => {
                 className="mt-2 shadow-lg rounded-full h-[20px] "
               />
             </div>
-            <div className="w-3/4 relative mt-10">
+            <div
+              className="w-3/4 relative mt-10"
+              data-aos="fade-right"
+              data-aos-easing="linear"
+              data-aos-duration="1000"
+            >
               <p className="text-xl texts">MongoDb</p>
               <ProgressBar
                 completed={65}
@@ -160,7 +194,12 @@ const Skills = () => {
                 className="mt-2 shadow-lg rounded-full h-[20px] "
               />
             </div>
-            <div className="w-3/4 relative mt-10">
+            <div
+              className="w-3/4 relative mt-10"
+              data-aos="fade-left"
+              data-aos-easing="linear"
+              data-aos-duration="1000"
+            >
               <p className="text-xl texts">Node JS</p>
               <ProgressBar
                 completed={70}
@@ -178,7 +217,11 @@ const Skills = () => {
           <h1 className="text-center text-2xl font-bold">Education</h1>
           <hr className="mt-5" />
           <div className="mt-20 grid grid-cols-1 lg:gap-32 lg:grid-cols-3">
-            <div className=" shadow-md shadow-slate-300 rounded-xl text-center py-10 px-5">
+            <div
+              className=" shadow-md shadow-slate-300 rounded-xl text-center py-10 px-5"
+              data-aos="fade-down"
+              data-aos-duration="1000"
+            >
               <p className="text-3xl font-bold">Secondary School Certificate</p>
               <p className="text-xl text-slate-300 mt-2">
                 Gaowair High School,Dhaka
@@ -188,7 +231,11 @@ const Skills = () => {
                 5 / 5
               </span>
             </div>
-            <div className=" shadow-md shadow-slate-300 rounded-xl text-center py-10 px-5">
+            <div
+              className=" shadow-md shadow-slate-300 rounded-xl text-center py-10 px-5"
+              data-aos="fade-up"
+              data-aos-duration="1000"
+            >
               <p className="text-3xl font-bold">Higher School Certificate</p>
               <p className="text-xl text-slate-300 mt-2">
                 KC Model College,Dhaka
@@ -198,7 +245,11 @@ const Skills = () => {
                 4.91 / 5
               </span>
             </div>
-            <div className=" shadow-md shadow-slate-300 rounded-xl text-center py-10 px-5">
+            <div
+              className=" shadow-md shadow-slate-300 rounded-xl text-center py-10 px-5"
+              data-aos="fade-down"
+              data-aos-duration="1000"
+            >
               <p className="text-3xl font-bold">BSC at Hons(CSE)</p>
               <p className="text-xl text-slate-300 mt-2">
                 Tejgaon College,Dhaka
