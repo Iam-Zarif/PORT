@@ -105,7 +105,7 @@ const Navbar = () => {
               </div>
             </div>
             <div className="navbar-end hidden lg:flex">
-              <ul className=" menu menu-horizontal px-1 text-white text-lg font-semibold ">
+              <ul className="hover:text-slate-300 menu menu-horizontal px-1 text-white text-lg font-semibold ">
                 {navItems}
                 <button className="rounded-full btn btn-outline text-blue-500 hover:text-blue-700">
                   Hire Me

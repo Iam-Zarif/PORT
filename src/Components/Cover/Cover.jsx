@@ -9,6 +9,7 @@ import { BsInstagram } from "react-icons/bs";
 import { SiAdobeillustrator } from "react-icons/si";
 import { LuInstagram } from "react-icons/lu";
 import { SlSocialInstagram } from "react-icons/sl";
+import { AiOutlineGithub } from "react-icons/ai";
 import "./cover.css"
 import { CiFacebook } from "react-icons/ci";
 import { TiSocialLinkedinCircular } from "react-icons/ti";
@@ -70,6 +71,9 @@ const Cover = () => {
                 target="_blank"
               >
                 <LuInstagram className="rounded-xl text-4xl lg:text-6xl hover:text-blue-500 shadow-lg shadow-slate-300" />
+              </a>
+              <a href="https://github.com/Iam-Zarif" target="_blank">
+                <AiOutlineGithub className="rounded-xl text-4xl lg:text-6xl hover:text-blue-500 shadow-lg shadow-slate-300" />
               </a>
             </div>
           </div>
