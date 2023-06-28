@@ -33,7 +33,7 @@ const AboutMe = () => {
               >
                 <p className="text-4xl font-bold">Basic Information</p>
                 <hr className=" mt-4" />
-                <div className="flex flex-col gap-4 mt-2 text-xl">
+                <div className="flex flex-col gap-4 mt-5 text-xl">
                   <p className="">
                     <span className="text-blue-500 font-bold">Name</span> :
                     Mostofa Fatin
@@ -67,6 +67,12 @@ const AboutMe = () => {
                       Mothers's name
                     </span>{" "}
                     : Jannatul Ferdous
+                  </p>
+                  <p>
+                    <span className="text-blue-500 font-bold">
+                      Current Education
+                    </span>{" "}
+                    : Hons 3rd Year(CSE)
                   </p>
                 </div>
               </div>
