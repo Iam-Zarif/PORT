@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-no-target-blank */
 import Container from "../../Container/Container";
 import CoverContainer from "../../Container/CoverContainer";
 import marvel from "../../assets/Marvel-toys.png";
@@ -25,7 +26,7 @@ const Projects = () => {
               <p>React</p>
               <p>Tailwind CSS</p>
               <p>Daisy UI</p>
-              
+
               <p>Node JS</p>
               <p>Firebase</p>
               <p>MongoDb</p>
@@ -33,10 +34,34 @@ const Projects = () => {
               <p>Animations</p>
               <p>AOS</p>
               <hr />
-              <div className="flex flex-col gap-y-2">
-                <a href="">LIVE SERVER</a>
-                <a href="">CLIENT REPOSITORY</a>
-                <a href="">SERVER REPOSITORY</a>
+              <div className="flex flex-col gap-y-2 mt-3">
+                <a
+                  className=""
+                  target="_blank"
+                  href="https://toy-market-71ba4.web.app/"
+                >
+                  <span className="shadow-md shadow-black p-2 hover:shadow-slate-400 rounded-xl">
+                    LIVE SERVER
+                  </span>
+                </a>
+                <a
+                  className="mt-2"
+                  target="_blank"
+                  href="https://github.com/Iam-Zarif/the-marvels"
+                >
+                  <span className="shadow-md shadow-black p-2 hover:shadow-slate-400 rounded-xl">
+                    CLIENT REPOSITORY
+                  </span>
+                </a>
+                <a
+                  className="mt-2"
+                  target="_blank"
+                  href="https://github.com/Iam-Zarif/the-marvels-server"
+                >
+                  <span className="shadow-md shadow-black p-2 hover:shadow-slate-400 rounded-xl">
+                    SERVER REPOSITORY
+                  </span>
+                </a>
               </div>
             </div>
           </div>
@@ -57,10 +82,34 @@ const Projects = () => {
               <p>Animations</p>
               <p>AOS</p>
               <hr />
-              <div className="flex flex-col gap-y-2">
-                <a href="">LIVE SERVER</a>
-                <a href="">CLIENT REPOSITORY</a>
-                <a href="">SERVER REPOSITORY</a>
+              <div className="flex flex-col gap-y-2 mt-3">
+                <a
+                  className=""
+                  target="_blank"
+                  href="https://mare-auth.web.app/"
+                >
+                  <span className="shadow-md shadow-black p-2 hover:shadow-slate-400 rounded-xl">
+                    LIVE SERVER
+                  </span>
+                </a>
+                <a
+                  className="mt-2"
+                  target="_blank"
+                  href="https://github.com/Iam-Zarif/langage-mare"
+                >
+                  <span className="shadow-md shadow-black p-2 hover:shadow-slate-400 rounded-xl">
+                    CLIENT REPOSITORY
+                  </span>
+                </a>
+                <a
+                  className="mt-2"
+                  target="_blank"
+                  href="https://github.com/Iam-Zarif/language-mare-server"
+                >
+                  <span className="shadow-md shadow-black p-2 hover:shadow-slate-400 rounded-xl">
+                    SERVER REPOSITORY
+                  </span>
+                </a>
               </div>
             </div>
           </div>
@@ -81,10 +130,34 @@ const Projects = () => {
               <p>Animations</p>
               <p>AOS</p>
               <hr />
-              <div className="flex flex-col gap-y-2">
-                <a href="">LIVE SERVER</a>
-                <a href="">CLIENT REPOSITORY</a>
-                <a href="">SERVER REPOSITORY</a>
+              <div className="flex flex-col gap-y-2 mt-3">
+                <a
+                  className=""
+                  target="_blank"
+                  href="https://assignment-10-9bf21.web.app/"
+                >
+                  <span className="shadow-md shadow-black p-2 hover:shadow-slate-400 rounded-xl">
+                    LIVE SERVER
+                  </span>
+                </a>
+                <a
+                  className="mt-2"
+                  target="_blank"
+                  href="https://github.com/Iam-Zarif/zarif-foody"
+                >
+                  <span className="shadow-md shadow-black p-2 hover:shadow-slate-400 rounded-xl">
+                    CLIENT REPOSITORY
+                  </span>
+                </a>
+                <a
+                  className="mt-2"
+                  target="_blank"
+                  href="https://github.com/Iam-Zarif/zarif-foody-server"
+                >
+                  <span className="shadow-md shadow-black p-2 hover:shadow-slate-400 rounded-xl">
+                    SERVER REPOSITORY
+                  </span>
+                </a>
               </div>
             </div>
           </div>

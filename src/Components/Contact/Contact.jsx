@@ -12,8 +12,8 @@ const Contact = () => {
   return (
     <Container>
       <div className="mt-40">
-        <div className="flex justify-center gap-20 ">
-          <div className="shadow-lg shadow-black rounded-xl">
+        <div className="flex flex-col lg:flex-row justify-center gap-20 ">
+          <div className="shadow-lg shadow-black rounded-xl px-10 lg:px-0">
             <div
               className="text-white card card-compact w-96 bg-base-100 shadow-xl"
               data-aos="flip-left"
@@ -76,7 +76,7 @@ const Contact = () => {
             </div>
           </div>
           {/*  */}
-          <div className="bg px-20 shadow-lg shadow-black rounded-xl  flex items-center justify-center">
+          <div className="bg py-10 lg:py-0 lg:px-20 shadow-lg shadow-black rounded-xl  flex items-center justify-center">
             <form
               action="https://formspree.io/f/mjvqbowp"
               method="post"
