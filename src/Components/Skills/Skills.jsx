@@ -22,7 +22,7 @@ const Skills = () => {
             Professional Skills
           </p>
           <hr />
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-32 mt-14">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-32 lg:mt-14">
             <div className="shadow-lg shadow-black rounded-xl pl-10">
               <p className="text-3xl text-slate-500 mt-20 font-bold">
                 Design Skills
@@ -89,7 +89,7 @@ const Skills = () => {
             {/*  */}
             {/*  */}
             <div className="shadow-lg shadow-black rounded-xl pl-10 pb-10">
-              <p className="text-3xl text-slate-500 mt-20 font-bold">
+              <p className="text-3xl text-slate-500 lg:mt-20 font-bold">
                 Development Skills
               </p>
               <hr className="mt-4 lg:w-[670px]" />

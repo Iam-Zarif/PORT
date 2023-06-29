@@ -136,7 +136,7 @@ const AboutMe = () => {
             <p className="text-center text-3xl font-bold">Hobby</p>
             <hr className="mt-5" />
 
-            <div className="mt-20 grid grid-cols-1 lg:grid-cols-2 gap-10">
+            <div className="mt-20 grid grid-cols-1 lg:grid-cols-2 gap-10  mx-12 ">
               <div
                 data-aos="fade-up"
                 data-aos-easing="linear"
@@ -159,7 +159,7 @@ const AboutMe = () => {
                 </p>
               </div>
             </div>
-            <div className="mt-28 grid grid-cols-1 lg:grid-cols-2 gap-10">
+            <div className="mt-28 grid grid-cols-1 lg:grid-cols-2 gap-10 mx-12">
               <div
                 data-aos="fade-up"
                 data-aos-easing="linear"
@@ -183,7 +183,7 @@ const AboutMe = () => {
                 <img src={sing} alt="" className="ml-auto" />
               </div>
             </div>
-            <div className="mt-28 grid grid-cols-1 lg:grid-cols-2 gap-10">
+            <div className="mt-28 grid grid-cols-1 lg:grid-cols-2 gap-10 mx-12">
               <div
                 data-aos="fade-down"
                 data-aos-easing="linear"

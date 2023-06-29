@@ -17,8 +17,7 @@ const Contact = () => {
         <div className="flex flex-col lg:flex-row justify-center gap-20 mt-20">
           <div className="shadow-lg shadow-black rounded-xl px-10 lg:px-0">
             <div
-              className="text-white card card-compact w-96 bg-base-100 shadow-xl"
-              data-aos="flip-left"
+              data-aos="flip-right"
               data-aos-easing="linear"
               data-aos-duration="1000"
             >
@@ -83,7 +82,7 @@ const Contact = () => {
               action="https://formspree.io/f/mjvqbowp"
               method="post"
               className="bg-gray-800 p-6 lg:w-[600px] rounded-lg shadow-lg  shadow-slate-500"
-              data-aos="flip-right"
+              data-aos="flip-left"
               data-aos-easing="linear"
               data-aos-duration="1000"
             >
