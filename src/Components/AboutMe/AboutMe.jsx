@@ -19,7 +19,7 @@ const AboutMe = () => {
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-20">
               <div
                 className=" mt-16"
-                data-aos="fade-right"
+                data-aos="fade-up"
                 data-aos-offset="300"
                 data-aos-easing="ease-in-sine"
               >
@@ -27,7 +27,7 @@ const AboutMe = () => {
               </div>
               <div
                 className="mt-16 shadow-lg shadow-black p-8 rounded-xl"
-                data-aos="fade-left"
+                data-aos="fade-down"
                 data-aos-offset="300"
                 data-aos-easing="ease-in-sine"
               >

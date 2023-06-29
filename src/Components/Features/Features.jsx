@@ -65,7 +65,7 @@ const Features = () => {
               </p>
             </div>
             <div
-              data-aos="fade-up-right"
+              data-aos="fade-up"
               data-aos-easing="linear"
               data-aos-duration="500"
               className="  shadow-lg shadow-black rounded-xl p-10"
@@ -81,7 +81,7 @@ const Features = () => {
               </p>
             </div>
             <div
-              data-aos="fade-up-left"
+              data-aos="fade-down"
               data-aos-easing="linear"
               data-aos-duration="500"
               className="  shadow-lg shadow-black rounded-xl p-10"

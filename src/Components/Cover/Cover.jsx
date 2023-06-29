@@ -40,7 +40,7 @@ const Cover = () => {
               Mostofa Fatin
             </span>{" "}
             <br />
-            a <ReactRotatingText items={items} />
+            a <ReactRotatingText className="text-3xl font-bold" items={items} />
           </p>
           <p className="mt-8 lg:mr-24 lg:text-lg font-semibold mx-10 lg:mx-0">
             I use animation as a third dimension by which to simplify

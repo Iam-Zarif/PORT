@@ -50,7 +50,7 @@ const Skills = () => {
               </div>
               <div
                 className="w-3/4 relative mt-6"
-                data-aos="fade-right"
+                data-aos="fade-up"
                 data-aos-duration="1000"
               >
                 <p className="text-xl texts">
@@ -95,7 +95,7 @@ const Skills = () => {
               <hr className="mt-4 lg:w-[670px]" />
               <div
                 className="w-3/4 relative mt-6"
-                data-aos="fade-right"
+                data-aos="fade-up"
                 data-aos-easing="linear"
                 data-aos-duration="1000"
               >
@@ -114,7 +114,7 @@ const Skills = () => {
               </div>
               <div
                 className="w-3/4 relative mt-6"
-                data-aos="fade-left"
+                data-aos="fade-down"
                 data-aos-easing="linear"
                 data-aos-duration="1000"
               >
@@ -133,7 +133,7 @@ const Skills = () => {
               </div>
               <div
                 className="w-3/4 relative mt-6"
-                data-aos="fade-right"
+                data-aos="fade-up"
                 data-aos-easing="linear"
                 data-aos-duration="1000"
               >
@@ -152,7 +152,7 @@ const Skills = () => {
               </div>
               <div
                 className="w-3/4 relative mt-6"
-                data-aos="fade-left"
+                data-aos="fade-down"
                 data-aos-easing="linear"
                 data-aos-duration="1000"
               >
@@ -169,7 +169,7 @@ const Skills = () => {
               </div>
               <div
                 className="w-3/4 relative mt-6"
-                data-aos="fade-right"
+                data-aos="fade-up"
                 data-aos-easing="linear"
                 data-aos-duration="1000"
               >
@@ -188,7 +188,7 @@ const Skills = () => {
               </div>
               <div
                 className="w-3/4 relative mt-6"
-                data-aos="fade-left"
+                data-aos="fade-down"
                 data-aos-easing="linear"
                 data-aos-duration="1000"
               >
@@ -207,7 +207,7 @@ const Skills = () => {
               </div>
               <div
                 className="w-3/4 relative mt-6"
-                data-aos="fade-right"
+                data-aos="fade-up"
                 data-aos-easing="linear"
                 data-aos-duration="1000"
               >
@@ -226,7 +226,7 @@ const Skills = () => {
               </div>
               <div
                 className="w-3/4 relative mt-6"
-                data-aos="fade-left"
+                data-aos="fade-down"
                 data-aos-easing="linear"
                 data-aos-duration="1000"
               >
@@ -276,7 +276,7 @@ const Skills = () => {
             </div>
             <div
               className="w-3/4 relative mt-6 mx-auto"
-              data-aos="fade-left"
+              data-aos="fade-down"
               data-aos-easing="linear"
               data-aos-duration="1000"
             >
@@ -295,7 +295,7 @@ const Skills = () => {
             </div>
             <div
               className="w-3/4 relative mt-6 mx-auto"
-              data-aos="fade-right"
+              data-aos="fade-up"
               data-aos-easing="linear"
               data-aos-duration="1000"
             >
@@ -314,7 +314,7 @@ const Skills = () => {
             </div>
             <div
               className="w-3/4 relative mt-6 mx-auto"
-              data-aos="fade-left"
+              data-aos="fade-down"
               data-aos-easing="linear"
               data-aos-duration="1000"
             >
@@ -333,7 +333,7 @@ const Skills = () => {
             </div>
             <div
               className="w-3/4 relative mt-6 mx-auto"
-              data-aos="fade-down"
+              data-aos="fade-up"
               data-aos-easing="linear"
               data-aos-duration="1000"
             >
