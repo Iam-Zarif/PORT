@@ -29,7 +29,7 @@ const Projects = () => {
             <div className="text-center flex flex-col gap-3 font-bold mt-5">
               {/* Open the modal using ID.showModal() method */}
               <button
-                className="btn font-bold text-blue-500"
+                className="btn font-bold text-blue-500 hover:text-blue-700"
                 onClick={() => window.my_modal_5.showModal()}
               >
                 Technologies used
@@ -121,7 +121,7 @@ const Projects = () => {
             <hr className="mt-2 w-3/4 mx-auto" />
             <div className="text-center flex flex-col gap-3 font-bold mt-5">
               <button
-                className="btn font-bold text-blue-500"
+                className="btn font-bold text-blue-500 hover:text-blue-700"
                 onClick={() => window.my_modal_1.showModal()}
               >
                 Technologies used
@@ -207,11 +207,11 @@ const Projects = () => {
           </div>
           <div className="shadow-lg shadow-black">
             <img src={foody} alt="" className="border rounded-xl" />
-            
+
             <hr className="mt-2 w-3/4 mx-auto" />
             <div className="text-center flex flex-col gap-3 font-bold mt-5">
               <button
-                className="btn font-bold text-blue-500"
+                className="btn font-bold text-blue-500 hover:text-blue-700"
                 onClick={() => window.my_modal_2.showModal()}
               >
                 Technologies used

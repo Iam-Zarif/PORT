@@ -8,7 +8,7 @@ const Footer = () => {
           <footer className="footer footer-center rounded-full p-4 bg-slate-700 text-base-content">
             <div>
               <p className="text-bold text-lg ">
-                Copyright © 2023 - All right reserved by ACME Industries Ltd
+                Copyright © 2023 - All right reserved by Mostofa Fatin
               </p>
             </div>
           </footer>
