@@ -83,17 +83,7 @@ const Cover = () => {
         </div>
       </div>
       <section className="text-center lg:text-left">
-        <button
-          className="btn btn-outline text-blue-500 hover:text-blue-500 hover:shadow-md hover:shadow-slate-300 mt-10 text-xl"
-          onClick={() =>
-            window.open(
-              "https://drive.google.com/file/d/1H0VJB-TgQsUj0mtMvbhJScEK4Eyh1RId/view?usp=sharing",
-              "_blank"
-            )
-          }
-        >
-          Download My Resume
-        </button>
+        
       </section>{" "}
       <hr className="mt-16 shadow-md py-1  " />
     </CoverContainer>

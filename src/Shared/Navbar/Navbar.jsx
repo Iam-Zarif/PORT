@@ -1,4 +1,4 @@
-import {  Link, NavLink } from "react-router-dom";
+import {   NavLink } from "react-router-dom";
 import Container from "../../Container/Container";
 import me from "../../assets/me1.png"
 import "./Navbar.css"
@@ -98,16 +98,38 @@ const Navbar = () => {
                   alt="Zarif photo"
                 />
 
-                <p className="normal-case lg:text-3xl text-xl text-blue-500 font-semibold shadowed-text">
-                  Mostofa Fatin
-                </p>
+                <div className="flex gap-4">
+                  <p className="normal-case lg:text-3xl text-xl text-blue-500 font-semibold shadowed-text">
+                    Mostofa Fatin
+                  </p>
+                </div>
+                <button
+                  className="btn  btn-outline rounded-3xl text-blue-500 hover:text-blue-500 hover:shadow-md hover:shadow-slate-300 "
+                  onClick={() =>
+                    window.open(
+                      "https://drive.google.com/file/d/1H0VJB-TgQsUj0mtMvbhJScEK4Eyh1RId/view?usp=sharing",
+                      "_blank"
+                    )
+                  }
+                >
+                  Resume
+                </button>
               </div>
+              <section className=""></section>
             </div>
             <div className="navbar-end hidden lg:flex">
-              <ul className=" flex gap-10 menu-horizontal px-1 text-white text-lg font-semibold ">
+              <ul className=" flex items-center gap-10 menu-horizontal px-1 text-white text-lg font-semibold ">
                 {navItems}
-                <button className="rounded-full btn btn-outline text-blue-500 hover:text-blue-700">
-                  <Link to="/contact-with-me">Hire Me</Link>
+                <button
+                  className="btn btn-outline rounded-3xl text-blue-500 hover:text-blue-500 hover:shadow-md hover:shadow-slate-300 "
+                  onClick={() =>
+                    window.open(
+                      "https://drive.google.com/file/d/1H0VJB-TgQsUj0mtMvbhJScEK4Eyh1RId/view?usp=sharing",
+                      "_blank"
+                    )
+                  }
+                >
+                  Download Resume
                 </button>
               </ul>
             </div>
