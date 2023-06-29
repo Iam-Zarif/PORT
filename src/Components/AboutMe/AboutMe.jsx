@@ -138,7 +138,7 @@ const AboutMe = () => {
 
             <div className="mt-20 grid grid-cols-1 lg:grid-cols-2 gap-10">
               <div
-                data-aos="fade-left"
+                data-aos="fade-up"
                 data-aos-easing="linear"
                 data-aos-duration="1000"
               >
@@ -189,7 +189,7 @@ const AboutMe = () => {
                 data-aos-easing="linear"
                 data-aos-duration="1000"
               >
-                <img src={read} className="w-4/5" alt="" />
+                <img src={read} className="lg:w-4/5 mx-auto" alt="" />
               </div>
               <div
                 data-aos="fade-up"
