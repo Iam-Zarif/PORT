@@ -52,7 +52,7 @@ const Cover = () => {
               Find Me in
             </p>
 
-            <div className="flex justify-center lg:justify-start items-center gap-14 mt-8 ">
+            <div className="mx-16 lg:mx-0 flex justify-center lg:justify-start items-center gap-14 mt-8 ">
               <a
                 href="https://www.linkedin.com/in/mostofa-fatin-zarif-863793257/"
                 target="_blank"
@@ -78,7 +78,7 @@ const Cover = () => {
             </div>
           </div>
         </div>
-        <div>
+        <div className="mx-16 lg:mx-0">
           <img src={photo} className=" " alt="My Bug size photo" />
         </div>
       </div>

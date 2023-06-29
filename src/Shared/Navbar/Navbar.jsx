@@ -9,8 +9,8 @@ const Navbar = () => {
           <NavLink
             exact
             to="/"
-            className="hover:text-blue-500"
-            activeClassName="active-link"
+            className="hover:text-blue-300 navItems"
+            activeClassName="active"
           >
             Home
           </NavLink>
@@ -18,8 +18,8 @@ const Navbar = () => {
         <li>
           <NavLink
             to="/features"
-            className="hover:text-blue-500"
-            activeClassName="active-link"
+            className="hover:text-blue-300 navItems"
+            activeClassName="active"
           >
             Features
           </NavLink>
@@ -27,8 +27,8 @@ const Navbar = () => {
         <li>
           <NavLink
             to="/projects"
-            className="hover:text-blue-500"
-            activeClassName="active-link"
+            className="hover:text-blue-300 navItems"
+            activeClassName="active"
           >
             Projects
           </NavLink>
@@ -36,8 +36,8 @@ const Navbar = () => {
         <li>
           <NavLink
             to="/skills"
-            className="hover:text-blue-500"
-            activeClassName="active-link"
+            className="hover:text-blue-300 navItems"
+            activeClassName="active"
           >
             Skills
           </NavLink>
@@ -45,8 +45,8 @@ const Navbar = () => {
         <li>
           <NavLink
             to="/about-me"
-            className="hover:text-blue-500"
-            activeClassName="active-link"
+            className="hover:text-blue-300 navItems"
+            activeClassName="active"
           >
             About me
           </NavLink>
@@ -54,8 +54,8 @@ const Navbar = () => {
         <li>
           <NavLink
             to="/contact-with-me"
-            className="hover:text-blue-500"
-            activeClassName="active-link"
+            className="hover:text-blue-300 navItems"
+            activeClassName="active"
           >
             Contact with me
           </NavLink>
@@ -86,7 +86,7 @@ const Navbar = () => {
                 </label>
                 <ul
                   tabIndex={0}
-                  className="block bg-slate-600 text-white menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow  rounded-box w-52"
+                  className="block bg-slate-600 text-white menu menu-sm dropdown-content mt-3 z-[1] p-2   rounded-box w-52"
                 >
                   {navItems}
                 </ul>
@@ -105,7 +105,7 @@ const Navbar = () => {
               </div>
             </div>
             <div className="navbar-end hidden lg:flex">
-              <ul className="hover:text-slate-300 menu menu-horizontal px-1 text-white text-lg font-semibold ">
+              <ul className=" flex gap-10 menu-horizontal px-1 text-white text-lg font-semibold ">
                 {navItems}
                 <button className="rounded-full btn btn-outline text-blue-500 hover:text-blue-700">
                   Hire Me

@@ -18,7 +18,7 @@ const Features = () => {
         <Container>
           <div className="mt-10 grid grid-cols-1 lg:grid-cols-3 gap-y-8 gap-x-20 mx-10 lg:mx-0">
             <div
-              data-aos="fade-right"
+              data-aos="fade-down"
               data-aos-easing="linear"
               data-aos-duration="500"
               className="  shadow-lg shadow-black rounded-xl  p-10"
@@ -48,7 +48,7 @@ const Features = () => {
               </p>
             </div>
             <div
-              data-aos="fade-left"
+              data-aos="fade-up"
               data-aos-easing="linear"
               data-aos-duration="500"
               className="  shadow-lg shadow-black rounded-xl p-10"

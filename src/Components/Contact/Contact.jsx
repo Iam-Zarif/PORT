@@ -11,8 +11,10 @@ import { TiSocialLinkedinCircular } from "react-icons/ti";
 const Contact = () => {
   return (
     <Container>
-      <div className="mt-40">
-        <div className="flex flex-col lg:flex-row justify-center gap-20 ">
+      <div className="mt-40 text-white">
+        <p className="text-center text-2xl font-bold">Contact With Me</p>
+        <hr className="mt-3"/>
+        <div className="flex flex-col lg:flex-row justify-center gap-20 mt-20">
           <div className="shadow-lg shadow-black rounded-xl px-10 lg:px-0">
             <div
               className="text-white card card-compact w-96 bg-base-100 shadow-xl"
