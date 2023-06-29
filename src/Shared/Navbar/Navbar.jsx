@@ -1,4 +1,4 @@
-import {  NavLink } from "react-router-dom";
+import {  Link, NavLink } from "react-router-dom";
 import Container from "../../Container/Container";
 import me from "../../assets/me1.png"
 import "./Navbar.css"
@@ -92,13 +92,12 @@ const Navbar = () => {
                 </ul>
               </div>
               <div className="flex items-center gap-2">
-                
                 <img
                   src={me}
                   className="rounded-full lg:w-fit w-[50px] border-blue-500 border-4"
                   alt="Zarif photo"
                 />
-                
+
                 <p className="normal-case lg:text-3xl text-xl text-blue-500 font-semibold shadowed-text">
                   Mostofa Fatin
                 </p>
@@ -108,7 +107,7 @@ const Navbar = () => {
               <ul className=" flex gap-10 menu-horizontal px-1 text-white text-lg font-semibold ">
                 {navItems}
                 <button className="rounded-full btn btn-outline text-blue-500 hover:text-blue-700">
-                  Hire Me
+                  <Link to="/contact-with-me">Hire Me</Link>
                 </button>
               </ul>
             </div>
