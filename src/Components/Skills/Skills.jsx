@@ -254,7 +254,7 @@ const Skills = () => {
         <div className="text-white">
           <p className="text-3xl font-bold text-center">Language Skills</p>
           <hr className="mt-4" />
-          <div className="shadow-lg shadow-black mt-20 py-10 rounded-xl">
+          <div className="shadow-lg shadow-black lg:mt-20 py-10 rounded-xl">
             <div
               className="w-3/4 relative mt-6 mx-auto"
               data-aos="fade-up"

@@ -26,7 +26,7 @@ const AboutMe = () => {
                 <img src={photo} alt="" />
               </div>
               <div
-                className="mt-16 shadow-lg shadow-black p-8 rounded-xl"
+                className="lg:mt-16 shadow-lg shadow-black p-8 rounded-xl"
                 data-aos="fade-down"
                 data-aos-offset="300"
                 data-aos-easing="ease-in-sine"
