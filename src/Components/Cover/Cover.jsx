@@ -83,7 +83,14 @@ const Cover = () => {
         </div>
       </div>
       <section className="text-center lg:text-left">
-        <button className="btn btn-outline text-blue-500 hover:text-blue-500 hover:shadow-md hover:shadow-slate-300 mt-10 text-xl ">
+        <button
+          className="btn btn-outline text-blue-500 hover:text-blue-500 hover:shadow-md hover:shadow-slate-300 mt-10 text-xl"
+          onClick={() =>
+            window.open(
+              "https://drive.google.com/uc?export=download&id=1H0VJB-TgQsUj0mtMvbhJScEK4Eyh1RId"
+            )
+          }
+        >
           Download My Resume
         </button>
       </section>{" "}

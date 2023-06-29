@@ -21,7 +21,12 @@ const Projects = () => {
       </Container>
       <CoverContainer>
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-10 mt-20 px-12 lg:px-0">
-          <div className="shadow-lg shadow-black pb-5">
+          <div
+            data-aos="fade-up"
+            data-aos-offset="300"
+            data-aos-easing="ease-in-sine"
+            className="shadow-lg shadow-black pb-5"
+          >
             <img className="border rounded-xl" src={marvel} alt="" />
             {/*  */}
 
@@ -83,6 +88,53 @@ const Projects = () => {
               </dialog>
 
               {/*  */}
+
+              <button
+                className="btn font-bold text-blue-500 hover:text-blue-700"
+                onClick={() => window.my_modal_3.showModal()}
+              >
+                More Information
+                <BsFillArrowRightCircleFill className="inline text-xl" />
+              </button>
+              <dialog
+                id="my_modal_3"
+                className="modal modal-bottom sm:modal-middle"
+              >
+                <form
+                  method="dialog"
+                  className="modal-box text-white bg-slate-700 shadow-lg pt-10 shadow-black border"
+                >
+                  <p>About site</p>
+                  <hr className="mt-2" />
+                  <p className="text-xl">
+                    {" "}
+                    <span className="text-blue-500 font-bold">Site Name</span> :
+                    The Marvels
+                  </p>
+                  <div className="mt-4">
+                    <p className="text-xl">Features</p>
+                    <hr className="mt-2" />
+                    <p className="shadow-md shadow-black rounded-xl mt-3 text-slate-300">
+                      A famous Toy Store
+                    </p>{" "}
+                    <p className="shadow-md shadow-black rounded-xl mt-3 text-slate-300">
+                      Has Logo, navbar, Banner, Gallery, Footer
+                    </p>{" "}
+                    <p className="shadow-md shadow-black rounded-xl mt-3 text-slate-300">
+                      Has the blog sections Can log in with google, Email
+                      Password
+                    </p>{" "}
+                    <p className="shadow-md shadow-black rounded-xl mt-3 text-slate-300">
+                      Recipes can not be seen without logging in
+                    </p>
+                  </div>
+                  <div className="modal-action">
+                    {/* if there is a button in form, it will close the modal */}
+                    <button className="btn">Close</button>
+                  </div>
+                </form>
+              </dialog>
+              {/*  */}
               <hr />
               <div className="flex flex-col gap-y-2 mt-3">
                 <a
@@ -115,7 +167,12 @@ const Projects = () => {
               </div>
             </div>
           </div>
-          <div className="shadow-lg shadow-black">
+          <div
+            data-aos="fade-down"
+            data-aos-offset="300"
+            data-aos-easing="ease-in-sine"
+            className="shadow-lg shadow-black"
+          >
             <img src={language} alt="" className="border rounded-xl" />
 
             <hr className="mt-2 w-3/4 mx-auto" />
@@ -173,6 +230,57 @@ const Projects = () => {
                   </div>
                 </form>
               </dialog>
+              <button
+                className="btn font-bold text-blue-500 hover:text-blue-700"
+                onClick={() => window.my_modal_9.showModal()}
+              >
+                More Information
+                <BsFillArrowRightCircleFill className="inline text-xl" />
+              </button>
+              <dialog
+                id="my_modal_9"
+                className="modal modal-bottom sm:modal-middle"
+              >
+                <form
+                  method="dialog"
+                  className="modal-box text-white bg-slate-700 shadow-lg pt-10 shadow-black border"
+                >
+                  <p>About site</p>
+                  <hr className="mt-2" />
+                  <p className="text-xl">
+                    {" "}
+                    <span className="text-blue-500 font-bold">Site Name</span> :
+                    The Marvels
+                  </p>
+                  <div className="mt-4">
+                    <p className="text-xl">Features</p>
+                    <hr className="mt-2" />
+                    <p className="shadow-md shadow-black rounded-xl mt-3 text-slate-300">
+                      Language course
+                    </p>{" "}
+                    <p className="shadow-md shadow-black rounded-xl mt-3 text-slate-300">
+                      Comprehensive curriculum covering all language skills and
+                      proficiency levels.
+                    </p>{" "}
+                    <p className="shadow-md shadow-black rounded-xl mt-3 text-slate-300">
+                      Language immersion opportunities to promote real-world
+                      language use and cultural understanding.
+                    </p>{" "}
+                    <p className="shadow-md shadow-black rounded-xl mt-3 text-slate-300">
+                      Interactive learning materials, including textbooks,
+                      multimedia resources, and online exercises.
+                    </p>
+                    <p className="shadow-md shadow-black rounded-xl mt-3 text-slate-300">
+                      Qualified instructors with expertise in language teaching
+                      methodologies.
+                    </p>
+                  </div>
+                  <div className="modal-action">
+                    {/* if there is a button in form, it will close the modal */}
+                    <button className="btn">Close</button>
+                  </div>
+                </form>
+              </dialog>
               <hr />
               <div className="flex flex-col gap-y-2 mt-3">
                 <a
@@ -205,20 +313,25 @@ const Projects = () => {
               </div>
             </div>
           </div>
-          <div className="shadow-lg shadow-black">
+          <div
+            data-aos="fade-up"
+            data-aos-offset="300"
+            data-aos-easing="ease-in-sine"
+            className="shadow-lg shadow-black"
+          >
             <img src={foody} alt="" className="border rounded-xl" />
 
             <hr className="mt-2 w-3/4 mx-auto" />
             <div className="text-center flex flex-col gap-3 font-bold mt-5">
               <button
                 className="btn font-bold text-blue-500 hover:text-blue-700"
-                onClick={() => window.my_modal_2.showModal()}
+                onClick={() => window.my_modal_8.showModal()}
               >
                 Technologies used
                 <BsFillArrowRightCircleFill className="inline text-xl" />
               </button>
               <dialog
-                id="my_modal_2"
+                id="my_modal_8"
                 className="modal modal-bottom sm:modal-middle"
               >
                 <form
@@ -255,6 +368,51 @@ const Projects = () => {
                     </p>
                     <p className="shadow-md shadow-black rounded-xl mt-2">
                       AOS
+                    </p>
+                  </div>
+                  <div className="modal-action">
+                    {/* if there is a button in form, it will close the modal */}
+                    <button className="btn">Close</button>
+                  </div>
+                </form>
+              </dialog>
+              <button
+                className="btn font-bold text-blue-500 hover:text-blue-700"
+                onClick={() => window.my_modal_4.showModal()}
+              >
+                More Information
+                <BsFillArrowRightCircleFill className="inline text-xl" />
+              </button>
+              <dialog
+                id="my_modal_4"
+                className="modal modal-bottom sm:modal-middle"
+              >
+                <form
+                  method="dialog"
+                  className="modal-box text-white bg-slate-700 shadow-lg pt-10 shadow-black border"
+                >
+                  <p>About site</p>
+                  <hr className="mt-2" />
+                  <p className="text-xl">
+                    {" "}
+                    <span className="text-blue-500 font-bold">Site Name</span> :
+                    A world wide famous restaurent
+                  </p>
+                  <div className="mt-4">
+                    <p className="text-xl">Features</p>
+                    <hr className="mt-2" />
+                    <p className="shadow-md shadow-black rounded-xl mt-3 text-slate-300">
+                      A famous Toy Store
+                    </p>{" "}
+                    <p className="shadow-md shadow-black rounded-xl mt-3 text-slate-300">
+                      Has Logo, navbar, cover photo, information of chefs in
+                      cards
+                    </p>{" "}
+                    <p className="shadow-md shadow-black rounded-xl mt-3 text-slate-300">
+                      Recipes can not be seen without logging in
+                    </p>{" "}
+                    <p className="shadow-md shadow-black rounded-xl mt-3 text-slate-300">
+                      It will show error if non-valid user try to log in
                     </p>
                   </div>
                   <div className="modal-action">
