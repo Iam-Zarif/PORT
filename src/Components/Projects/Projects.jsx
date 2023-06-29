@@ -25,7 +25,7 @@ const Projects = () => {
             data-aos="fade-up"
             data-aos-offset="300"
             data-aos-easing="ease-in-sine"
-            className="shadow-lg shadow-black pb-5"
+            className="shadow-lg shadow-black pb-5 "
           >
             <img className="border rounded-xl" src={marvel} alt="" />
             {/*  */}
@@ -142,7 +142,7 @@ const Projects = () => {
                   target="_blank"
                   href="https://toy-market-71ba4.web.app/"
                 >
-                  <span className="shadow-md shadow-black p-2 hover:shadow-slate-400 rounded-xl">
+                  <span className=" shadow-md shadow-black p-2 hover:shadow-slate-400 rounded-xl">
                     LIVE SERVER
                   </span>
                 </a>
