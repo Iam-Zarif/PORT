@@ -104,15 +104,14 @@ const Navbar = () => {
                   </p>
                 </div>
                 <button
-                  className="btn  btn-outline rounded-3xl text-blue-500 hover:text-blue-500 hover:shadow-md hover:shadow-slate-300 "
+                  className="btn block lg:hidden btn-outline rounded-3xl ml-4 text-blue-500 hover:text-blue-500 hover:shadow-md hover:shadow-slate-300"
                   onClick={() =>
                     window.open(
-                      "https://drive.google.com/file/d/1H0VJB-TgQsUj0mtMvbhJScEK4Eyh1RId/view?usp=sharing",
-                      "_blank"
+                      "https://drive.google.com/uc?export=download&id=1H0VJB-TgQsUj0mtMvbhJScEK4Eyh1RId"
                     )
                   }
                 >
-                  Resume
+                   Resume
                 </button>
               </div>
               <section className=""></section>
@@ -121,15 +120,14 @@ const Navbar = () => {
               <ul className=" flex items-center gap-10 menu-horizontal px-1 text-white text-lg font-semibold ">
                 {navItems}
                 <button
-                  className="btn btn-outline rounded-3xl text-blue-500 hover:text-blue-500 hover:shadow-md hover:shadow-slate-300 "
+                  className="btn btn-outline rounded-3xl text-blue-500 hover:text-blue-500 hover:shadow-md hover:shadow-slate-300"
                   onClick={() =>
                     window.open(
-                      "https://drive.google.com/file/d/1H0VJB-TgQsUj0mtMvbhJScEK4Eyh1RId/view?usp=sharing",
-                      "_blank"
+                      "https://drive.google.com/uc?export=download&id=1H0VJB-TgQsUj0mtMvbhJScEK4Eyh1RId"
                     )
                   }
                 >
-                  Download Resume
+                   Resume
                 </button>
               </ul>
             </div>

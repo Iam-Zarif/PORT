@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unknown-property */
 /* eslint-disable react/jsx-no-target-blank */
 import Container from "../../Container/Container";
 import CoverContainer from "../../Container/CoverContainer";
@@ -27,14 +28,19 @@ const Projects = () => {
             data-aos-easing="ease-in-sine"
             className="shadow-lg shadow-black pb-5 "
           >
-            <img className="border rounded-xl" src={marvel} alt="" />
+            <img
+              class="border rounded-xl transform transition-all duration-300 hover:scale-125"
+              src={marvel}
+              alt=""
+            />
+
             {/*  */}
 
             <hr className="mt-2 w-3/4 mx-auto " />
             <div className="text-center flex flex-col gap-3 font-bold mt-5">
               {/* Open the modal using ID.showModal() method */}
               <button
-                className="btn font-bold text-blue-500 hover:text-blue-700"
+                className="btn font-bold text-blue-500 hover:text-blue-700 mx-12"
                 onClick={() => window.my_modal_5.showModal()}
               >
                 Technologies used
@@ -90,7 +96,7 @@ const Projects = () => {
               {/*  */}
 
               <button
-                className="btn font-bold text-blue-500 hover:text-blue-700"
+                className="btn font-bold text-blue-500 hover:text-blue-700 mx-12"
                 onClick={() => window.my_modal_3.showModal()}
               >
                 More Information
@@ -173,12 +179,16 @@ const Projects = () => {
             data-aos-easing="ease-in-sine"
             className="shadow-lg shadow-black"
           >
-            <img src={language} alt="" className="border rounded-xl" />
+            <img
+              src={language}
+              alt=""
+              className="border rounded-xl transform transition-all duration-300 hover:scale-125"
+            />
 
             <hr className="mt-2 w-3/4 mx-auto" />
             <div className="text-center flex flex-col gap-3 font-bold mt-5">
               <button
-                className="btn font-bold text-blue-500 hover:text-blue-700"
+                className="btn font-bold text-blue-500 hover:text-blue-700 mx-12"
                 onClick={() => window.my_modal_1.showModal()}
               >
                 Technologies used
@@ -231,7 +241,7 @@ const Projects = () => {
                 </form>
               </dialog>
               <button
-                className="btn font-bold text-blue-500 hover:text-blue-700"
+                className="btn font-bold text-blue-500 hover:text-blue-700 mx-12"
                 onClick={() => window.my_modal_9.showModal()}
               >
                 More Information
@@ -319,12 +329,16 @@ const Projects = () => {
             data-aos-easing="ease-in-sine"
             className="shadow-lg shadow-black"
           >
-            <img src={foody} alt="" className="border rounded-xl" />
+            <img
+              src={foody}
+              alt=""
+              className="border rounded-xl transform transition-all duration-300 hover:scale-125"
+            />
 
             <hr className="mt-2 w-3/4 mx-auto" />
             <div className="text-center flex flex-col gap-3 font-bold mt-5">
               <button
-                className="btn font-bold text-blue-500 hover:text-blue-700"
+                className="btn font-bold text-blue-500 hover:text-blue-700 mx-12"
                 onClick={() => window.my_modal_8.showModal()}
               >
                 Technologies used
@@ -377,7 +391,7 @@ const Projects = () => {
                 </form>
               </dialog>
               <button
-                className="btn font-bold text-blue-500 hover:text-blue-700"
+                className="btn font-bold text-blue-500 hover:text-blue-700 mx-12"
                 onClick={() => window.my_modal_4.showModal()}
               >
                 More Information
