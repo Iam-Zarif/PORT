@@ -13,7 +13,7 @@ const Icons = () => {
     return (
       <div>
         <Container>
-          <div className="grid grid-cols-2 lg:grid-cols-5 gap-y-10 mx-auto  mt-5 lg:mt-28">
+          <div className="grid grid-cols-1 lg:grid-cols-5 gap-y-10 mx-auto  mt-5 lg:mt-28">
             <img
               className="mx-auto lg:w-[180px] w-[180px] shadow-lg shadow-black p-8 rounded-xl hover:shadow-slate-400 animate-float lg:animate-none"
               src={html}
