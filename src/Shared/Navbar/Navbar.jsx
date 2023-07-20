@@ -107,7 +107,7 @@ const Navbar = () => {
                   className="btn block lg:hidden btn-outline rounded-3xl ml-4 text-blue-500 hover:text-blue-500 hover:shadow-md hover:shadow-slate-300"
                   onClick={() =>
                     window.open(
-                      "https://drive.google.com/uc?export=download&id=1H0VJB-TgQsUj0mtMvbhJScEK4Eyh1RId"
+                      "https://drive.google.com/file/d/1a_DmZWQXQg0s9_L1UbIKftz5wvnBJb3o/view?usp=sharing"
                     )
                   }
                 >
@@ -123,7 +123,7 @@ const Navbar = () => {
                   className="btn btn-outline rounded-3xl text-blue-500 hover:text-blue-500 hover:shadow-md hover:shadow-slate-300"
                   onClick={() =>
                     window.open(
-                      "https://drive.google.com/uc?export=download&id=1H0VJB-TgQsUj0mtMvbhJScEK4Eyh1RId"
+                      "https://drive.google.com/file/d/1a_DmZWQXQg0s9_L1UbIKftz5wvnBJb3o/view?usp=sharing"
                     )
                   }
                 >
