@@ -2,7 +2,7 @@
 
 import Container from "../../Container/Container";
 import CoverContainer from "../../Container/CoverContainer";
-import photo from "../../assets/Programming-pana-1.png"
+import photo from "../../assets/dev.gif"
 import sketch from "../../assets/sketch2.gif"
 import sing from "../../assets/sing1.gif"
 import read from "../../assets/read1.gif"
@@ -16,14 +16,14 @@ const AboutMe = () => {
               My Summary at a glance
             </p>
             <hr className="mt-2" />
-            <div className="grid grid-cols-1 lg:grid-cols-2 gap-20">
+            <div className="grid grid-cols-1 lg:grid-cols-2 items-center gap-20">
               <div
                 className=" mt-16"
                 data-aos="fade-up"
                 data-aos-offset="300"
                 data-aos-easing="ease-in-sine"
               >
-                <img src={photo} alt="" />
+                <img src={photo} alt="" className="rounded-full border-4 border-blue-600"/>
               </div>
               <div
                 className="lg:mt-16 shadow-lg shadow-black p-8 rounded-xl"

@@ -79,7 +79,7 @@ const Cover = () => {
           </div>
         </div>
         <div className="mx-16 lg:mx-0">
-          <img src={photo} className=" " alt="My Bug size photo" />
+          <img src={photo} className=" " alt="My Big size photo" />
         </div>
       </div>
       <section className="text-center lg:text-left">

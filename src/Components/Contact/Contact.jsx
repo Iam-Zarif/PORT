@@ -9,11 +9,12 @@ import { TiSocialLinkedinCircular } from "react-icons/ti";
 
 
 const Contact = () => {
+ 
   return (
     <Container>
       <div className="mt-40 text-white">
         <p className="text-center text-2xl font-bold">Contact With Me</p>
-        <hr className="mt-3"/>
+        <hr className="mt-3" />
         <div className="flex flex-col lg:flex-row justify-center gap-20 mt-20">
           <div className="shadow-lg shadow-black rounded-xl lg:w-96 px-10 lg:px-0">
             <div
@@ -85,6 +86,7 @@ const Contact = () => {
               data-aos="flip-left"
               data-aos-easing="linear"
               data-aos-duration="1000"
+             
             >
               <div className="space-y-6">
                 <div>

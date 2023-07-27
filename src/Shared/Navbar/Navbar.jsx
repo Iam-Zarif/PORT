@@ -1,8 +1,15 @@
 import {   NavLink } from "react-router-dom";
 import Container from "../../Container/Container";
-import me from "../../assets/me1.png"
+import me from "../../assets/dev.gif"
 import "./Navbar.css"
 const Navbar = () => {
+  const handleDownload = () => {
+    const link = document.createElement("a");
+    link.href =
+      "https://drive.google.com/uc?export=download&id=1Oo544_Fo3rA0Ji_zr8zJ4JHQMDb8JhVF";
+    link.download = "resume.pdf";
+    link.click();
+  };
     const navItems = (
       <>
         <li>
@@ -94,7 +101,7 @@ const Navbar = () => {
               <div className="flex items-center gap-2">
                 <img
                   src={me}
-                  className="rounded-full lg:w-fit w-[50px] border-blue-500 border-4"
+                  className="rounded-full lg:w-[90px] w-[50px] border-blue-500 border-4"
                   alt="Zarif photo"
                 />
 
@@ -105,13 +112,9 @@ const Navbar = () => {
                 </div>
                 <button
                   className="btn block lg:hidden btn-outline rounded-3xl ml-4 text-blue-500 hover:text-blue-500 hover:shadow-md hover:shadow-slate-300"
-                  onClick={() =>
-                    window.open(
-                      "https://drive.google.com/file/d/1a_DmZWQXQg0s9_L1UbIKftz5wvnBJb3o/view?usp=sharing"
-                    )
-                  }
+                  onClick={handleDownload}
                 >
-                   Resume
+                  Resume
                 </button>
               </div>
               <section className=""></section>
@@ -121,13 +124,9 @@ const Navbar = () => {
                 {navItems}
                 <button
                   className="btn btn-outline rounded-3xl text-blue-500 hover:text-blue-500 hover:shadow-md hover:shadow-slate-300"
-                  onClick={() =>
-                    window.open(
-                      "https://drive.google.com/file/d/1a_DmZWQXQg0s9_L1UbIKftz5wvnBJb3o/view?usp=sharing"
-                    )
-                  }
+                  onClick={handleDownload}
                 >
-                   Resume
+                  Resume
                 </button>
               </ul>
             </div>
