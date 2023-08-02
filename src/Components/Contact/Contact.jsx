@@ -17,22 +17,22 @@ const Contact = () => {
 
         <div className="flex flex-col lg:flex-row justify-center gap-20 mt-20">
           <div className="shadow-lg shadow-black rounded-xl lg:w-96 px-10 lg:px-0">
-            <div className="container">
+            <div className="hidden lg:block container">
               <div className="bubbles">
-                <span style={{ "--i": 41 }}></span>
-                <span style={{ "--i": 23 }}></span>
-                <span style={{ "--i": 16 }}></span>
-                <span style={{ "--i": 29 }}></span>
-                <span style={{ "--i": 41 }}></span>
-                <span style={{ "--i": 33 }}></span>
-                <span style={{ "--i": 27 }}></span>
-                <span style={{ "--i": 30 }}></span>
-                <span style={{ "--i": 11 }}></span>
-                <span style={{ "--i": 21 }}></span>
-                <span style={{ "--i": 22 }}></span>
-                <span style={{ "--i": 9 }}></span>
-                <span style={{ "--i": 14 }}></span>
-                <span style={{ "--i": 32 }}></span>
+                <span className="shadow-lg shadow-black" style={{ "--i": 41 }}></span>
+                <span className="shadow-lg shadow-black" style={{ "--i": 23 }}></span>
+                <span className="shadow-lg shadow-black" style={{ "--i": 16 }}></span>
+                <span className="shadow-lg shadow-black" style={{ "--i": 29 }}></span>
+                <span className="shadow-lg shadow-black" style={{ "--i": 41 }}></span>
+                <span className="shadow-lg shadow-black" style={{ "--i": 33 }}></span>
+                <span className="shadow-lg shadow-black" style={{ "--i": 27 }}></span>
+                <span className="shadow-lg shadow-black" style={{ "--i": 30 }}></span>
+                <span className="shadow-lg shadow-black" style={{ "--i": 11 }}></span>
+                <span className="shadow-lg shadow-black" style={{ "--i": 21 }}></span>
+                <span className="shadow-lg shadow-black" style={{ "--i": 22 }}></span>
+                <span className="shadow-lg shadow-black" style={{ "--i": 9 }}></span>
+                <span className="shadow-lg shadow-black" style={{ "--i": 14 }}></span>
+                <span className="shadow-lg shadow-black" style={{ "--i": 32 }}></span>
               </div>
             </div>
             <div
