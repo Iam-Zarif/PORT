@@ -22,6 +22,7 @@
     "react-scroll": "^1.8.9",
     "react-scrollspy": "^3.4.3",
     "react-tabs": "^6.0.1",
+    "react-tooltip": "^5.19.0",
     "sort-by": "^1.2.0",
     "sweetalert2": "^11.7.20"
   },

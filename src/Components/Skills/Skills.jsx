@@ -21,7 +21,7 @@ const Skills = () => {
           <p className="text-white text-center text-3xl font-bold mb-6">
             Professional Skills
           </p>
-          <hr />
+         
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-32 lg:mt-14">
             <div className="shadow-lg shadow-black rounded-xl pl-10">
               <p className="text-3xl text-slate-500 mt-20 font-bold">

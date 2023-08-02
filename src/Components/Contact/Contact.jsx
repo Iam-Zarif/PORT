@@ -14,9 +14,27 @@ const Contact = () => {
     <Container>
       <div className="mt-40 text-white">
         <p className="text-center text-2xl font-bold">Contact With Me</p>
-        <hr className="mt-3" />
+
         <div className="flex flex-col lg:flex-row justify-center gap-20 mt-20">
           <div className="shadow-lg shadow-black rounded-xl lg:w-96 px-10 lg:px-0">
+            <div className="container">
+              <div className="bubbles">
+                <span style={{ "--i": 41 }}></span>
+                <span style={{ "--i": 23 }}></span>
+                <span style={{ "--i": 16 }}></span>
+                <span style={{ "--i": 29 }}></span>
+                <span style={{ "--i": 41 }}></span>
+                <span style={{ "--i": 33 }}></span>
+                <span style={{ "--i": 27 }}></span>
+                <span style={{ "--i": 30 }}></span>
+                <span style={{ "--i": 11 }}></span>
+                <span style={{ "--i": 21 }}></span>
+                <span style={{ "--i": 22 }}></span>
+                <span style={{ "--i": 9 }}></span>
+                <span style={{ "--i": 14 }}></span>
+                <span style={{ "--i": 32 }}></span>
+              </div>
+            </div>
             <div
               data-aos="flip-right"
               data-aos-easing="linear"
@@ -86,7 +104,6 @@ const Contact = () => {
               data-aos="flip-left"
               data-aos-easing="linear"
               data-aos-duration="1000"
-             
             >
               <div className="space-y-6">
                 <div>

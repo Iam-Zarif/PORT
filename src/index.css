@@ -19,3 +19,40 @@ background: linear-gradient(110deg, rgb(30, 37, 42) 10%, rgb(45, 52, 58) 51%, rg
    background: rgb(78,89,98);
 background: linear-gradient(110deg, rgb(61, 75, 85) 10%, rgb(45, 52, 58) 51%, rgb(32, 42, 49) 93%);
 }
+
+/*  */
+
+.containerX{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+.bubbles{
+    position: relative;
+    display: flex;
+}
+.bubbles span{
+    position: relative;
+    width: 20px;
+    height: 20px;
+    background: #c1c6e1;
+    margin: 0 4px;
+    border-radius: 50%;
+    box-shadow: 0 0 0 10px rgba(0, 0, 0, 0.173), 0 0 50px white, 0 0 100px rgb(238, 239, 242);
+    animation: animate 15s linear infinite;
+    animation-duration: calc(110s / var(--i));
+}
+.bubbles span:nth-child(even){
+        box-shadow: 0 0 0 10px rgba(141, 233, 136, 0.427), 0 0 50px white, 0 0 100px rgb(248, 250, 248);
+
+}
+@keyframes animate {
+    0%{
+        transform: translateY(100vh)  scale(0);
+    }
+    100%{
+        transform: translateY(-10vh) scale(1);
+    }
+}
+/*  */

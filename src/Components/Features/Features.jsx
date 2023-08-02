@@ -11,6 +11,7 @@ const Features = () => {
   return (
     <>
       <div className="mt-32 text-white">
+        
         <CoverContainer>
           <h1 className="text-2xl text-blue-500 text-center">Features</h1>
           <h1 className="text-4xl mt-4 font-bold text-center">What I do</h1>

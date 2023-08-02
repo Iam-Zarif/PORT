@@ -12,16 +12,18 @@ import Skills from "../../Components/Skills/Skills";
 
 const Home = () => {
     return (
-        <div>
-            <Cover></Cover>
-            <Icons></Icons>
-           <Features></Features>
-           <Projects></Projects>
-           <Skills></Skills>
-           <AboutMe></AboutMe>
-           <Contact></Contact>
-            
+      <div>
+        
+        <div className="">
+          <Cover></Cover>
+          <Icons></Icons>
+          <Features></Features>
+          <Projects></Projects>
+          <Skills></Skills>
+          <AboutMe></AboutMe>
+          <Contact></Contact>
         </div>
+      </div>
     );
 };
 

@@ -17,7 +17,7 @@ const Projects = () => {
       <Container>
         <div>
           <p className="text-center text-3xl font-bold">My projects</p>
-          <hr className="mt-3" />
+          
         </div>
       </Container>
       <CoverContainer>
@@ -36,7 +36,7 @@ const Projects = () => {
 
             {/*  */}
 
-            <hr className="mt-2 w-3/4 mx-auto " />
+         
             <div className="text-center flex flex-col gap-3 font-bold mt-5">
               {/* Open the modal using ID.showModal() method */}
               <button
@@ -141,7 +141,7 @@ const Projects = () => {
                 </form>
               </dialog>
               {/*  */}
-              <hr />
+              
               <div className="flex flex-col gap-y-2 mt-3">
                 <a
                   className=""
@@ -185,7 +185,7 @@ const Projects = () => {
               className="border rounded-xl transform transition-all duration-300 hover:scale-125"
             />
 
-            <hr className="mt-2 w-3/4 mx-auto" />
+             
             <div className="text-center flex flex-col gap-3 font-bold mt-5">
               <button
                 className="btn font-bold text-blue-500 hover:text-blue-700 mx-12"
@@ -291,7 +291,7 @@ const Projects = () => {
                   </div>
                 </form>
               </dialog>
-              <hr />
+              
               <div className="flex flex-col gap-y-2 mt-3">
                 <a
                   className=""
@@ -335,7 +335,7 @@ const Projects = () => {
               className="border rounded-xl transform transition-all duration-300 hover:scale-125"
             />
 
-            <hr className="mt-2 w-3/4 mx-auto" />
+             
             <div className="text-center flex flex-col gap-3 font-bold mt-5">
               <button
                 className="btn font-bold text-blue-500 hover:text-blue-700 mx-12"
@@ -435,7 +435,7 @@ const Projects = () => {
                   </div>
                 </form>
               </dialog>
-              <hr />
+              
               <div className="flex flex-col gap-y-2 mt-3">
                 <a
                   className=""
